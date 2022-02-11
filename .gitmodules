@@ -1,0 +1,3 @@
+[submodule "themes/solstice"]
+	path = themes/solstice
+	url = git@github.com:ChPu437/hexo-theme-solstice
