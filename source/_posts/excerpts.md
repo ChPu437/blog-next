@@ -1,5 +1,5 @@
 ---
-title: excerpts
+title: Excerpts
 date: 2022-02-01 14:29:30
 summary: 一些小小摘抄
 tags:
@@ -20,7 +20,7 @@ comment: false
 
 <div class="Center">
 
-**Oranges and lemons**
+## Oranges and lemons
 
 <div class="Serif">
 
@@ -48,3 +48,9 @@ And here comes a chopper to chop off your head!
 </div></div>
 
 <div class="Right">——乔治·奥威尔 《1984》</div>
+
+---
+
+<div class="Serif">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp该贿赂的，我就递包袱。可我没做过缺德的事，伤天害理的事，为什么就不叫我活着呢？我得罪了谁？谁？皇上，娘娘那些狗男女都活得有滋有味，单不许我吃窝窝头，谁出的主意呢？</div>
+<div class="Right">——老舍《茶馆》</div>
+
