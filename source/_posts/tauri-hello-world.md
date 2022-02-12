@@ -34,36 +34,36 @@ comment:
 ## index.html
 
 ```html
-&lt;!--main window--&gt;
-&lt;!DOCTYPE html&gt;
+<!--main window-->
+<!DOCTYPE html>
 
-&lt;html&gt;
+<html>
 
-&lt;head&gt;
-	&lt;meta charset=&quot;utf-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-&lt;/head&gt;
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-&lt;body&gt;
-	&lt;div id=&quot;greetText&quot;&gt;What's your name?&lt;/div&gt;
-	&lt;input id=&quot;nameInput&quot; type=&quot;text&quot; /&gt;
-	&lt;button id=&quot;greetButton&quot; onclick=&quot;greetButton_clicked();&quot;&gt;Say &quot;Hello&quot;&lt;/button&gt;
+<body>
+	<div id="greetText">What's your name?</div>
+	<input id="nameInput" type="text" />
+	<button id="greetButton" onclick="greetButton_clicked();">Say "Hello"</button>
 
-	&lt;div&gt;push the button, and it should give some respond&lt;/div&gt;
-&lt;/body&gt;
+	<div>push the button, and it should give some respond</div>
+</body>
 
-&lt;script&gt;
+<script>
 	async function greetButton_clicked() {
-		// you shuold add &quot;withGlobalTauri&quot;: true to the build section of
+		// you shuold add "withGlobalTauri": true to the build section of
 		// tauri.conf.json to use window.__TAURI__.*
 		// but use tauri like this will have less security with your program,
 		// see https://tauri.studio/en/docs/api/config#build.withGlobalTauri for detail.
-		document.getElementById(&quot;greetText&quot;).innerText = await window.__TAURI__.invoke(&quot;greet&quot;, { name: document.getElementById(&quot;nameInput&quot;).value });
+		document.getElementById("greetText").innerText = await window.__TAURI__.invoke("greet", { name: document.getElementById("nameInput").value });
 		// the args invoked to rust funcs should be packed in json object.
 	}
-&lt;/script&gt;
+</script>
 
-&lt;/html&gt;
+</html>
 ```
 
 ## main.rs

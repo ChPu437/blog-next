@@ -57,7 +57,7 @@ markdown:
     xhtmlOut: true
     breaks: false
     langPrefix: 'lang-'
-    linkify: true
+    linkify: false
     typographer: true
     quotes: '“”‘’'
   plugins:
