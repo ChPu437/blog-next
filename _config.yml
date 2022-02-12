@@ -19,7 +19,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.chpu437.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls.trailing_index: false
 
@@ -63,7 +63,7 @@ markdown:
   plugins:
     - Plugin:
       name: markdown-it-prism
-      enable: true
+      enable: false
     - Plugin:
       name: markdown-it-katex
       enable: true
