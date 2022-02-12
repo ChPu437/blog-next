@@ -6,6 +6,7 @@
     "version": "6.0.0"
   },
   "dependencies": {
+    "@traptitech/markdown-it-katex": "^3.5.0",
     "hexo": "^6.0.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-generator-archive": "^1.0.0",
@@ -13,9 +14,14 @@
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-multi-markdown-it": "^0.1.5",
+    "hexo-renderer-markdown-it": "^6.0.1",
     "hexo-renderer-stylus": "^2.0.1",
-    "hexo-server": "^2.0.0"
+    "hexo-server": "^2.0.0",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-highlightjs": "^3.6.0",
+    "markdown-it-spoiler": "^1.1.1",
+    "markdown-it-task-checkbox": "^1.0.6"
   },
   "scripts": {
     "dev": "hexo server -p $PORT",

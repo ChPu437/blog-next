@@ -62,16 +62,25 @@ markdown:
     quotes: '“”‘’'
   plugins:
     - Plugin:
-      name: markdown-it-prism
-      enable: false
+      name: markdown-it-highlightjs
+      enable: true
     - Plugin:
-      name: markdown-it-katex
+      name: "@traptitech/markdown-it-katex"
       enable: true
     - plugin:
-      name: ./markdown-it-spoiler
+      name: markdown-it-spoiler
       enable: true
       options:
         title: "你知道得太多了"
+    - Plugin:
+      name: markdown-it-emoji
+      enable: true
+    - Plugin:
+      name: markdown-it-footnote
+      enable: true
+    - Plugin:
+      name: markdown-it-task-checkbox
+      enable: true
 # options for minify
 minify:
   html:

@@ -1,12 +1,10 @@
 ---
 title: 测试文章
-password: 114514
-message: 密码是 114514
-date: 2022-02-11 15:55:13
+date: 1946-02-14 00:00:00
 summary: 测试标题
 tags:
+  - 测试
 comment: true
-math: true
 ---
 此文章用于测试博客的各项功能，文章的正文部分应填入`main`一节。
 
@@ -88,7 +86,7 @@ $\KaTeX$
 
 ---
 
-prism.js 测试
+highlight.js 测试
 
 ```rust
 fn main() {
