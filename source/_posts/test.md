@@ -63,7 +63,7 @@ codecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecode
 
 below is an image
 
-![](/img/avatar/my_avatar.png)
+<img src="/img/avatar/my_avatar.png" height="30%" width="30%" />
 
 and below is another image converted from base64 (for better readability i used reference style, i think it's better to store the base64 string somewhere else though)
 
