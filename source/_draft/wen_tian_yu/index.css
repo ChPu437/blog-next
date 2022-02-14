@@ -1,12 +1,12 @@
-.NoCopy {
+.no_copy {
 	user-select: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 }
-.NoDrag {
+.no_drag {
 	-webkit-user-drag: none;
 }
-.NoTextDeco {
+.no_deco {
 	text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ footer {
 	left: 0; right: 0; bottom: 0;
 }
 
-.Button {
+.button {
 	position: fixed;
 	top: 0; right: 0;
 
@@ -55,7 +55,7 @@ footer {
 
 	cursor: pointer;
 }
-.Button, .ButtonIcon {
+.button, .button_icon {
 	width: 2em; height: 2em;
 }
 

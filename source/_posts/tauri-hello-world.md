@@ -47,13 +47,13 @@ comment:
 <body>
 	<div id="greetText">What's your name?</div>
 	<input id="nameInput" type="text" />
-	<button id="greetButton" onclick="greetButton_clicked();">Say "Hello"</button>
+	<button id="greetbutton" onclick="greetbutton_clicked();">Say "Hello"</button>
 
 	<div>push the button, and it should give some respond</div>
 </body>
 
 <script>
-	async function greetButton_clicked() {
+	async function greetbutton_clicked() {
 		// you shuold add "withGlobalTauri": true to the build section of
 		// tauri.conf.json to use window.__TAURI__.*
 		// but use tauri like this will have less security with your program,
