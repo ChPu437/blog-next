@@ -5,6 +5,7 @@ summary: 测试标题
 tags:
   - 测试
 comment: true
+cc: true
 ---
 此文章用于测试博客的各项功能，文章的正文部分应填入`main`一节。
 
@@ -63,7 +64,7 @@ codecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecode
 
 below is an image
 
-<img src="/img/avatar/my_avatar.png" height="30%" width="30%" />
+![my avatar](/img/avatar/my_avatar.png =80%x80%)
 
 and below is another image converted from base64 (for better readability i used reference style, i think it's better to store the base64 string somewhere else though)
 

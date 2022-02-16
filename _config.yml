@@ -50,6 +50,7 @@ prismjs:
 
 # Renderer
 # options for renderer
+## hexo-renderer-markdown-it
 markdown:
   preset: 'default'
   render:
@@ -61,27 +62,27 @@ markdown:
     typographer: true
     quotes: '“”‘’'
   plugins:
-    - Plugin:
-      name: markdown-it-highlightjs
-      enable: true
-    - Plugin:
-      name: "@traptitech/markdown-it-katex"
-      enable: true
-    - plugin:
-      name: markdown-it-spoiler
-      enable: true
+    - name: markdown-it-highlightjs
+    - name: "@traptitech/markdown-it-katex" # $\KaTeX$
+    - name: "@traptitech/markdown-it-spoiler" # !!spoiler!!
+    - name: markdown-it-emoji # :smile:
+    - name: markdown-it-footnote
+    - name: markdown-it-task-checkbox
+    - name: markdown-it-imsize
+    - name: markdown-it-kbd # [[k]]
+    - name: markdown-it-image-lazy-loading
+    - name: markdown-it-attrs
+    - name: markdown-it-anchor
       options:
-        title: "你知道得太多了"
-    - Plugin:
-      name: markdown-it-emoji
-      enable: true
-    - Plugin:
-      name: markdown-it-footnote
-      enable: true
-    - Plugin:
-      name: markdown-it-task-checkbox
-      enable: true
-
+## hexo-renderer-stylus
+stylus:
+  compress: true
+  sourcemaps:
+    comment: true
+    inline: true
+    sourceRoot: ''
+    basePath: .
+  plugins: 'nib'
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -111,45 +112,15 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-# # hexo-minify
-# TODO: this will cause katex not working normally
-# minify:
-#   js:
-#     enable: true
-#     ## 详细配置: https://github.com/mishoo/UglifyJS
-#     options:
-#   css:
-#     enable: true
-#     ## 详细配置: https://github.com/clean-css/clean-css#compatibility-modes
-#     options:
-#   html:
-#     enable: true
-#     ## 详细配置: https://github.com/kangax/html-minifier#options-quick-reference
-#     options: 
-#       minifyJS: true # Compressed JavaScript
-#       minifyCSS: true # CSS Compressed
-#       removeComments: true # Remove the comments
-#       collapseWhitespace: true # Delete any extra space
-#       removeAttributeQuotes: true # Delete attribute quotes
-# hexo-renderer-stylus
-stylus:
-  compress: true
-  sourcemaps:
-    comment: true
-    inline: true
-    sourceRoot: ''
-    basePath: .
-  plugins: 'nib'
-## Themes: https://hexo.io/themes/
+### hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# Theme
 theme: solstice
-theme_config:
-  background: "https://s2.loli.net/2022/01/15/YUbulogsALCX6ip.jpg"
-  email: ChPu437@163.com
-  home:
-    slogan: # 留空则使用 subtitle
-  post:
-    comment:
-      repo: ChPu437/blog-comment
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

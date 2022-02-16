@@ -1,0 +1,8 @@
+background: "https://s2.loli.net/2022/01/15/YUbulogsALCX6ip.jpg"
+email: ChPu437@163.com
+home:
+  slogan: # 留空则使用 subtitle
+post:
+  comment:
+    repo: ChPu437/blog-comment
+
