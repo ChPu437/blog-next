@@ -72,8 +72,6 @@ markdown:
     - name: markdown-it-kbd # [[k]]
     - name: markdown-it-image-lazy-loading
     - name: markdown-it-attrs
-    - name: markdown-it-anchor
-      options:
 ## hexo-renderer-stylus
 stylus:
   compress: true
