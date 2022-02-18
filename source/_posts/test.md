@@ -1,6 +1,7 @@
 ---
 title: 测试文章 | Test
 date: 1946-02-14 00:00:00
+updated: 2022-02-17
 summary: 测试标题
 tags:
   - 测试

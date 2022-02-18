@@ -1,6 +1,7 @@
 ---
 title: 一道动力学问题
 date: 2021-07-31 00:00:00
+updated:
 summary: 新写的博客什么也没有，于是乎放个自己出的题凑凑数（
 tags:
 comment: true

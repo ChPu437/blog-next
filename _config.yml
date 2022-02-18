@@ -4,7 +4,7 @@
 
 # Site
 title: ChPu437
-subtitle: now powered by Hexo
+subtitle: 数万年前那个第一次生出火种的猿人，会不会有和我有相同的感受？
 description: ChPu437 的博客
 keywords:
   - Blog
@@ -47,6 +47,7 @@ highlight:
   enable: false
 prismjs:
   enable: false
+updated_option: date
 
 # Renderer
 # options for renderer

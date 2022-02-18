@@ -1,6 +1,7 @@
 ---
 title: Tauri hello_world
 date: 2021-08-10 14:29:38
+updated: 2022-02-01
 summary: Tauri 的 Hello world 程序，对应版本 1.0.0-beta8
 tags:
 comment: true
