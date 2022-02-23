@@ -1,5 +1,8 @@
 background: "/img/background/bg2.avif"
 email: ChPu437@163.com
+static: # 站长统计
+  enable: true
+  id: 1280890425
 home:
   slogan: # 留空则使用 subtitle
 post:
