@@ -1,7 +1,7 @@
 ---
 title: Excerpts
 date: 2022-02-01 14:29:30
-updated: 2022-02-22
+updated: 2022-02-23
 summary: 一些小小摘抄
 tags:
 comment: false
@@ -122,3 +122,67 @@ $1985$ 年 $1$ 月{.right}
 </div>
 
 ——卡尔维诺《被施了魔的花园》{.right}
+
+---
+
+<div class="center">
+
+## 天平山中
+
+**杨基**
+
+<div class="serif">
+细雨茸茸湿楝花，南风树树熟枇杷。<br>
+徐行不记山深浅，一路莺啼送到家。
+</div>
+</div>
+
+---
+
+<div class="center">
+
+## 别滁
+
+**欧阳修**
+
+<div class="serif">
+花光浓烂柳轻明，酌酒花前送我行。<br>
+我亦且如常日醉，莫教弦管作离声。 
+</div>
+</div>
+
+---
+
+<div class="serif">
+我正式劝同志们读一点书,免得受知识分子的骗。
+</div>
+
+——毛泽东{.right}
+
+---
+
+<div class="serif">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp有医者， 自称善外科。一裨将阵回，中流矢，深入膜，延使治。乃持并州剪，剪去矢管，跪而请酬。裨将曰：“镞在膜内须亟治。”医曰：“此内科之事，不意并责我。”裨将曰：“呜呼，世直有如是欺诈之徒。” 
+</div>
+
+—— [明] 江盈科《外科医生》{.right}
+
+---
+
+<div class="serif">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp那里有梦中时常出现的三口并排的水井，母亲总在井台边上忙碌，她洗菜或洗衣的手总是在冬天的水里冻得通红。井台上边，几棵茂密的龙眼树，春天总开着米粒般的小花，树下总卧着农家的水牛。水牛的反刍描写着漫长中午的寂静。
+</div>
+
+<div class="serif">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp转过龙眼树，便是一条由西式楼房组成的街巷，紫红色的三角梅从院落的墙上垂挂下来。再往前行，是一座遍植高大柠檬桉的山坡，我穿行在遮蔽了天空和阳光的树阴下，透过林间迷蒙的雾气望去，那影影绰绰的院落内植满了鲜花。
+</dev>
+
+<div class="serif">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp那里有一座教堂，有绘着宗教故事的彩色的窗棂，窗内传出圣洁的音乐。这一切，如今只在我的想象中活着，与我同行的年青的同伴全然不知。失去了的一切，只属于我，而我，又似是只拥有一个依稀的梦。
+<div>
+
+<div class="serif">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp我在我熟悉的故乡迷了路，我迷失了我早年的梦幻，包括我至亲至爱的故乡。
+<div>
+
+——谢冕《消失的故乡》{.right}
