@@ -6,4 +6,5 @@ summary:
 tags:
 comment: false
 cc: true
+pinned: false
 ---
