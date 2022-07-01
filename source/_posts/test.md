@@ -5,6 +5,7 @@ updated: 2022-02-17
 summary: 测试标题
 tags:
   - 测试
+  - test
 comment: true
 cc: true
 ---
@@ -52,7 +53,7 @@ codecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecode
 * list
 
 1. ordered
-2. listed
+2. list
 
 - [x] checked item
 - [ ] unchecked item

@@ -7,4 +7,5 @@ tags:
 comment: false
 cc: true
 pinned: false
+hidden: false
 ---
