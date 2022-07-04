@@ -4,7 +4,7 @@
 
 # Site
 title: ChPu437
-subtitle: Carnival in the Sky
+subtitle: 功夫不负有心人
 description: ChPu437 的博客
 keywords:
   - Blog
@@ -12,7 +12,6 @@ keywords:
 author: ChPu437
 language:
   - zh-cn
-  - en
 timezone: Asia/Shanghai
 
 # URL

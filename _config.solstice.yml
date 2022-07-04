@@ -1,4 +1,7 @@
-background: "/img/background/bg2.avif"
+background: # avif for default, webp and jpeg for fallback
+  avif: "/img/background/bg2.avif"
+  webp: "/img/background/bg2.webp"
+  jpeg: "/img/background/bg2.jpeg"
 email: ChPu437@163.com
 static: # 站长统计
   enable: true
