@@ -5,7 +5,7 @@ cc: true
 pinned: false
 hidden: false
 date: 2022-06-21 17:26:22
-updated: 2022-06-21 17:26:22
+updated: 2022-07-04 11:48:00
 summary: 进展和遇到的一些坑
 tags:
   - 手机
@@ -26,7 +26,7 @@ tags:
 
 但是，巧就巧在，魅族16上使用的骁龙845是有`mainline-linux`支持的 XD，同时得益于PostmarketOS活跃和庞大的社区，我成功在我的小16上启动了主线Linux内核并进入了PostmarketOS的rootfs。
 
-(注：以下内容可以看作是[这篇维基](https://wiki.postmarketos.org/wiki/Meizu_16th_(meizu-m1882))的翻译)
+（注：以下内容可以看作是[这篇维基](https://wiki.postmarketos.org/wiki/Meizu_16th_(meizu-m1882))以及[SDM845 Mianlining Guide](https://wiki.postmarketos.org/wiki/SDM845_Mainlining)的翻译）
 
 # 状态
 
@@ -36,7 +36,7 @@ tags:
 
 ## 已知问题
 
-1. 除了屏幕(仅显示)和电源键，你能想到的一切外围设备都用不了。
+1. 除了屏幕（仅显示）和电源键，你能想到的一切外围设备都用不了。
 2. SoC上的所有协处理器和GPU都无法使用。
 3. 生成的framebuffer刷新率很低，肉眼估计一秒只有1帧。
 
@@ -44,8 +44,30 @@ tags:
 
 # 安装方法
 
+## 开发环境配置
+
+PostmarketOS的开发环境配置具体参照[PostmarketOS官方Wiki(英文)](https://wiki.postmarketos.org/wiki/Porting_to_a_new_device)，直至“Kernel package“一节[^1]。
+
+除此之外，还需要在本地机上安装交叉编译器，如Ubuntu中包名为`aarch64-linux-gnu-gcc`。
+
+## 主线内核编译
+
+
+### 克隆内核
+
+```bash
+cd $HOME
+mkdir -p pmos && cd pmos
+git clone https://gitlab.com/sdm845-mainline/pmtools tools # 一些工具脚本
+git clone https://gitlab.com/sdm845-mainline/linux linux # Linux内核
+```
+
+### 创建dts
+
 WIP
 
 # 相关链接
 
 WIP
+
+[^1]: 选择手机型号时选择`oneplus-fajita`(一加6t)即可。此处只是用来构建`initramfs`和`rootfs`，目前状况下没啥大影响。

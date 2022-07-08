@@ -191,9 +191,9 @@ camel-case@^4.0.0:
     tslib "^2.0.3"
 
 caniuse-lite@^1.0.30001335, caniuse-lite@^1.0.30001359:
-  version "1.0.30001361"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001361.tgz#ba2adb2527566fb96f3ac7c67698ae7fc495a28d"
-  integrity sha512-ybhCrjNtkFji1/Wto6SSJKkWk6kZgVQsDq5QI83SafsF6FXv2JB4df9eEdH6g8sdGgqTXrFLjAxqBGgYoU3azQ==
+  version "1.0.30001363"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001363.tgz#26bec2d606924ba318235944e1193304ea7c4f15"
+  integrity sha512-HpQhpzTGGPVMnCjIomjt+jvyUu8vNFo3TaDiZ/RcoTrlOq/5+tC8zHdsbgFB6MxmaY+jCpsH09aD80Bb4Ow3Sg==
 
 chalk@^4.0.0, chalk@^4.0.2:
   version "4.1.2"
@@ -397,9 +397,9 @@ ejs@^3.1.6:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.172:
-  version "1.4.174"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.174.tgz#ffdf57f26dd4558c5aabdb4b190c47af1c4e443b"
-  integrity sha512-JER+w+9MV2MBVFOXxP036bLlNOnzbYAWrWU8sNUwoOO69T3w4564WhM5H5atd8VVS8U4vpi0i0kdoYzm1NPQgQ==
+  version "1.4.183"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.183.tgz#2ea25fa3089cc68dae18c8dcb19ed0509631ef82"
+  integrity sha512-PnJvlREshGPh3M5tgReLgqbOQ61yd4Knwo39Cxy9SMfqwX9q5iRy+JioQC1LyKx1IBAH2zoctAWblhgM2kbEKQ==
 
 encodeurl@~1.0.2:
   version "1.0.2"
@@ -1115,9 +1115,9 @@ moment-timezone@^0.5.34:
     moment ">= 2.9.0"
 
 "moment@>= 2.9.0", moment@^2.29.1:
-  version "2.29.3"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.3.tgz#edd47411c322413999f7a5940d526de183c031f3"
-  integrity sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw==
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 morgan@^1.9.1:
   version "1.10.0"
@@ -1538,9 +1538,9 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
 
 uglify-js@^3.12.4, uglify-js@^3.5.1:
-  version "3.16.1"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.16.1.tgz#0e7ec928b3d0b1e1d952bce634c384fd56377317"
-  integrity sha512-X5BGTIDH8U6IQ1TIRP62YC36k+ULAa1d59BxlWvPUJ1NkW5L3FwcGfEzuVvGmhJFBu0YJ5Ge25tmRISqCmLiRQ==
+  version "3.16.2"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.16.2.tgz#0481e1dbeed343ad1c2ddf3c6d42e89b7a6d4def"
+  integrity sha512-AaQNokTNgExWrkEYA24BTNMSjyqEXPSfhqoS0AxmHkCJ4U+Dyy5AvbGV/sqxuxficEfGGoX3zWw9R7QpLFfEsg==
 
 underscore.string@^3.2.3:
   version "3.3.6"
