@@ -10,6 +10,7 @@
     "@traptitech/markdown-it-spoiler": "^1.1.6",
     "@types/markdown-it": "^12.2.3",
     "hexo": "^6.0.0",
+    "hexo-browsersync": "^0.3.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^2.0.0",

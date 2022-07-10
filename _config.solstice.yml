@@ -8,4 +8,6 @@ home:
 post:
   comment:
     repo: ChPu437/blog-comment
-
+pages:
+  links:
+    enable: true
