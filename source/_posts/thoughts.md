@@ -3,7 +3,7 @@ title: 杂想
 comment: false
 cc: true
 pinned: false
-hidden: false
+hidden: true
 date: 2022-07-28 16:23:30
 updated: 2022-07-28 16:23:30
 summary: 瞎想想
