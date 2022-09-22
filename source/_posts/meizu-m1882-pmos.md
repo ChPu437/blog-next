@@ -5,7 +5,7 @@ cc: true
 pinned: false
 hidden: false
 date: 2022-06-21 17:26:22
-updated: 2022-09-14 19:50:00
+updated: 2022-09-22 19:50:00
 summary: 进展和遇到的一些坑
 tags:
   - 手机
@@ -46,7 +46,7 @@ tags:
 
 ## 开发环境配置
 
-PostmarketOS的开发环境配置具体参照[PostmarketOS官方Wiki(英文)](https://wiki.postmarketos.org/wiki/Porting_to_a_new_device)，直至“Kernel package“一节[^1]。
+PostmarketOS的开发环境配置具体参照[PostmarketOS官方Wiki(英文)](https://wiki.postmarketos.org/wiki/Porting_to_a_new_device)，直至"Kernel package一节"[^1]。
 
 除此之外，还需要在本地机上安装交叉编译器，如Ubuntu中包名为`aarch64-linux-gnu-gcc`。
 
