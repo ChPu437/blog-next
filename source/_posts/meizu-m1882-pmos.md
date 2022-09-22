@@ -5,7 +5,7 @@ cc: true
 pinned: false
 hidden: false
 date: 2022-06-21 17:26:22
-updated: 2022-07-04 11:48:00
+updated: 2022-09-14 19:50:00
 summary: 进展和遇到的一些坑
 tags:
   - 手机
@@ -64,7 +64,11 @@ git clone https://gitlab.com/sdm845-mainline/linux linux # Linux内核
 
 ### 创建dts
 
-WIP
+```bash
+cd $HOME/pmos/linux/
+cd arch/arm64/boot/dts/qcom/
+
+```
 
 # 相关链接
 

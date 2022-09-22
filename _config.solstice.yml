@@ -11,3 +11,6 @@ post:
 pages:
   links:
     enable: true
+  about:
+    enable: true
+    avatar: /img/avatar/my_avatar.png # 头像路径
