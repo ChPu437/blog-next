@@ -89,7 +89,9 @@ stylus:
 index_generator:
   path: ''
   per_page: 0
-  order_by: -date
+  order_by:
+    -date
+    -name
 
 # Category & Tag
 default_category: 未分类
