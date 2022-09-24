@@ -19,6 +19,7 @@ tags:
   - test11
 comment: true
 cc: true
+hidden: false
 ---
 此文章用于测试博客的各项功能，文章的正文部分应填入`main`一节。
 
@@ -73,7 +74,7 @@ codecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecode
 	* and this is a nested list
 		1. and this is a nested ordered list
 
-[this is a link, and its style should be changed](https://blog.chpu437.com/)
+[this is a link](https://blog.chpu437.com/)
 
 below is an image
 

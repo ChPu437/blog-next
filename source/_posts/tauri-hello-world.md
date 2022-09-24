@@ -6,6 +6,7 @@ summary: Tauri 的 Hello world 程序，对应版本 1.0.0-beta8
 tags:
 comment: true
 cc: true
+hidden: false
 ---
 
 # 前言

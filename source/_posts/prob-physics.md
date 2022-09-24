@@ -6,6 +6,7 @@ summary: 新写的博客什么也没有，于是乎放个自己出的题凑凑�
 tags:
 comment: true
 cc: true
+hidden: false
 ---
 
 注意：这是一道高中物理题，~~只遵循人教版高中物理规律~~，不保证能反映真实情况。<br>
