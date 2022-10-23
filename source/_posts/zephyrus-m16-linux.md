@@ -46,7 +46,7 @@ sudo pacman -Rsc xf86-video-intel
 
 `nouveau`在幻16上会导致无法正常开机，所以需要禁用，然后直接使用英伟达提供的私有驱动。
 
-在`/etc/modprobe/`下新建`blacklist-nouveau.conf`（或者其他你喜欢的名字），内容如下：
+在`/etc/modprobe.d/`下新建`blacklist-nouveau.conf`（或者其他你喜欢的名字），内容如下：
 
 ```shell
 blacklist nouveau
@@ -57,6 +57,7 @@ options nouveau modeset=0
 
 EndeavourOS为我们提供了脚本方便这一过程。
 ```shell
+$ sudo pacman -S nvidia-inst
 $ nvidia-inst -p # -p为同时安装nvidia-prime
 ```
 
