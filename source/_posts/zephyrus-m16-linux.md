@@ -105,6 +105,6 @@ $ nvidia-inst -p # -p为同时安装nvidia-prime
 
 在KDE中调整为四声道后，发现可以以分别调节每个声道的音量的方式来间接控制低音和高音喇叭的音量，但是不好使（音量调到最低或最高后几个声道的音量又会一致，导致实际播放音量不受控）
 
-参考[Github上的幻14安装ArchLinux教程](https://github.com/asus-zephyrus/archinstall#fixing-audio-on-linux)，我安装了`easyeffect`，然后发现只要在其启动后把输出源切换至`Easyeffect Sink`就可以正常控制音量。
+参考[Github上的幻14安装ArchLinux教程](https://github.com/asus-zephyrus/archinstall#fixing-audio-on-linux)，我安装了`easyeffects`，然后发现只要在其启动后把输出源切换至`Easyeffects Sink`就可以正常控制音量。
 
 所以，临时的解决方案是把这玩意当作后台服务开机启动即可（上面那篇文章有讲）。
