@@ -1,7 +1,7 @@
 ---
 title: Tauri hello_world
 date: 2021-08-10 14:29:38
-updated: 2022-02-01
+updated: 2022-11-17
 summary: Tauri 的 Hello world 程序，对应版本 1.0.0-beta8
 tags:
 comment: true
@@ -16,6 +16,8 @@ hidden: false
 最起码，它用到了`invoke`这个东西，也没`invoke`也没`event`鬼知道你到底咋调用 rust 函数的 -_-#
 
 阅读本文时请先注意 Tauri 的版本，根据官网介绍由于 Tauri 目前处于开发阶段，所以不同版本 API 可能有变动，如果有时间，我会尽量保证这篇文章中的示例程序可以在最新版 Tauri 中使用。（按理说这些基本操作应该不会有太大变化）
+
+> 注：现版本 Tauri 基础 API 趋于完善，已无过大变化，此代码在很大可能上可以在最新版的 Tauri 上正常运行，若无法通过编译请在评论区提出或邮箱联系我，谢谢！
 
 环境设置可以直接参考官网介绍，以下直接上代码。
 
