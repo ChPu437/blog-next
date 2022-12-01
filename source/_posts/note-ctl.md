@@ -224,3 +224,30 @@ int main() {
 	return 0;
 }
 ```
+
+12/01/2022
+
+构造函数：参数化列表与const与&
+参数化列表可以和正常方式混合使用
+
+重载的运算符不可以在构造函数里使用
+
+`=`的重载应返回引用（考虑`(s = t) = "tttt"`）
+
+友元
+```C++
+class A {
+  public:
+	...
+  friend:
+	void fun(A x);
+	...
+  private:
+	int val;
+	...
+};
+
+void fun(A x) {
+	std::cout x.val;
+}
+```
