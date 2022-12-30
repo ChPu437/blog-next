@@ -18,32 +18,6 @@ tags:
 
 1. [https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/](https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/)
 
-## 介绍
-
-### Hello World！
-
-## 函数
-
-### 初始化
-
-### 输入
-
-### 输出
-
-### 窗口
-
-### 样式
-
-#### 字体
-
-#### 颜色
-
-#### 边框
-
-### 杂项
-
-## Spinnets
-
 ### 调整终端大小时重绘
 
 ```C++

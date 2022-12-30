@@ -2,7 +2,7 @@
 title: 程序设计与计算思维 笔记
 hidden: true
 date: 2022-8-20
-updated: 2022-11-28
+updated: 2022-12-22
 ---
 switch checks all cases without break(may cause problem)
 ```C++
@@ -337,39 +337,26 @@ float* u = reinterpret_cast<float*>(m);
 ---
 12/8/2022
 
-[] -> 可省略
-红字 -> 关键字
-$ -> int
-. -> float
-? -> bool
-* -> char
+[] -> 可省略\
+红字 -> 关键字\
+$ -> int\
+. -> float\
+? -> bool\
+* -> char\
 
-造 -> 声明变量
-
-堆 -> 声明数组
-
-叠 -> 声明结构体
-
-贴 -> 引用
-
-连 -> 指针
-
-令 名字 之 名字/序数 为 名字 // eg. 令 a 之 5 为 b
-
-令 名字[#] 为 名字 // eg. 令 a# 为 b
-
-升 -> typedef
-
-使 -> 赋值
-
-预 -> 类似于声明？
-
-吃 -> input
-
-吐 -> print
-
-选 -> 类似于case
-
+造 -> 声明变量\
+堆 -> 声明数组\
+叠 -> 声明结构体\
+贴 -> 引用\
+连 -> 指针\
+令 名字 之 名字/序数 为 名字 // eg. 令 a 之 5 为 b\
+令 名字[#] 为 名字 // eg. 令 a# 为 b\
+升 -> typedef\
+使 -> 赋值\
+预 -> 类似于define？\
+吃 -> input\
+吐 -> print\
+选 -> 类似于case\
 复 -> 循环
 
 ---
@@ -592,3 +579,74 @@ C++中虚函数的实现采用的就是虚表+函数指针的方法.
 * 多态不能和指针运算同时存在(大小不固定).
 * 同样的，多态也不能和数组共存.
 
+12/22/2022
+
+基本流及文件流
+
+程序控制I/O的几个层次
+1. 程序
+2. OS API
+3. 文件系统
+4. OS系统调用
+5. 驱动程序
+6. I/O设备
+
+流是对数据传输过程的一种抽象\
+传输的具体内容\
+中间的控制\
+源(流结果的消耗)->宿(流结果的叠加)
+
+C++基本IO流类是一套类模板.\
+iostream中通过**友元函数**的方式实现`<<`和`>>`的重载.\
+iostream中预先定义了`ostream`类实例`cout`和`istream`类实例`cin`.\
+
+文件流\
+```C++
+#include <fstream>
+
+std::ifstream fin;
+fin.open("someFile", std::ios::in);
+
+// another way to construct a new instance
+std::ofstream fout("someFile", std::ios::out);
+
+
+fin.read(char*, sizeof(char*));
+fin >> x;
+fout.write(char*, sizeof(char*));
+fout << x;
+
+fin.close();
+fout.close();
+```
+
+随机访问时读写位置的确定：
+```C++
+ios::beg
+ios::cur
+ios::end
+```
+
+异常处理
+
+程序错误：语法错误、逻辑错误
+
+```C++
+someFunc{
+	throw [expr];
+}
+
+main() {
+	try {
+		someFunc();
+	} catch(someType [variable]) {
+		doSomeThing();
+	}
+}
+```
+* throw发生时立即离开发生异常的函数，后面的语句不再执行（类似return）
+* try-catch块的花括号不能省略
+* `catch(...)`表示捕捉任何类型的异常信息（应该放到所有`catch`之后）
+* `throw`后可以不加表达式，表示将异常交给“上级”处理
+* 当异常传递到主函数中还未能被`catch`处理，则会自动隐式调用一个系统函数Terminate使程序终止运行
+* 异常被catch到时会发生自动析构，避免局部变量未释放产生的内存泄露问题（那如果没有被catch到直接Terminate了呢）
