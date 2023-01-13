@@ -5,7 +5,7 @@ cc: true
 pinned: false
 hidden: false
 date: 2023-01-01 16:57:49
-updated: 2023-01-01 16:57:49
+updated: 2023-01-13 16:57:49
 summary: 采用Visual Studio
 tags:
 	- SDL2
