@@ -5,7 +5,7 @@ cc: true
 pinned: false
 hidden: false
 date: 2022-08-20 20:54:41
-updated: 2022-08-28 19:08:00
+updated: 2023-01-14 19:08:00
 summary: 一些遇到的问题和解决方案
 tags:
 	- Endeavour OS
@@ -67,6 +67,10 @@ $ nvidia-inst -p # -p为同时安装nvidia-prime
 
 ### 开启核显165hz显示
 
+**注：Linux6.0之后此问题似乎被解决**
+<details>
+<summary>之前版本的可能解决方案</summary>
+<div>
 这是一个很迷惑的问题。
 
 首先我参考了[ArchLinuxWiki上指出的一种解决方案](https://unix.stackexchange.com/questions/680356/i915-driver-stuck-at-40hz-on-165hz-screen)，但是并没有生效。
@@ -88,6 +92,8 @@ $ nvidia-inst -p # -p为同时安装nvidia-prime
 但是，由于这个问题本质是`i915`驱动没有及时更新导致的，加之我又升级了内核，我并不能确定2~5的操作一定是解决了问题。
 
 如果有人安装后在关闭独显直连的状态下没有进行上述操作就发现核显支持165hz模式，烦请在评论区告诉我。
+</div>
+</details>
 
 ### 安装ROG控制中心以调节模式
 
