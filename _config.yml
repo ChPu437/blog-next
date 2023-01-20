@@ -4,7 +4,7 @@
 
 # Site
 title: ChPu437
-subtitle: 你来人间一趟，你要看看太阳
+subtitle: 🐰兔年大吉🐰
 description: ChPu437 的博客
 keywords:
   - Blog
@@ -132,7 +132,7 @@ minify:
   html:
     enable: true
     ## 详细配置: https://github.com/kangax/html-minifier#options-quick-reference
-    options: 
+    options:
       minifyJS: true # Compressed JavaScript
       minifyCSS: true # CSS Compressed
       removeComments: true # Remove the comments
