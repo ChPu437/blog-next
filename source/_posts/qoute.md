@@ -19,8 +19,8 @@ tags:
 
 ---
 
-![](1.jpg)
+![](qoute/1.jpg)
 
 ---
 
-![](2.jpg)
+![](qoute/2.jpg)
