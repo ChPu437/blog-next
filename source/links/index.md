@@ -5,8 +5,8 @@ type: links
 # 博客
 
 <div id='blogContainer' class='SubContainer'>
-	<a class='Blog' href="https://bluequantum.gitee.io/">
-		<img src="https://bluequantum.gitee.io/static/images/icon.png" alt="头像"/>
+	<a class='Blog' href="https://blog.bluequantum.top/">
+		<img src="https://blog.bluequantum.top/static/images/icon.png" alt="头像"/>
 		BlueQuantum
 	</a>
 	<a class='Blog' href="https://www.wankupi.top/">
@@ -22,7 +22,7 @@ type: links
 		AzusaCat
 	</a>
 </div>
-<!-- 
+<!--
 # 网站推荐
 
 WIP
