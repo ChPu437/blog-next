@@ -21,6 +21,10 @@ type: links
 		<img src="https://i.loli.net/2021/05/11/vxq1dc7V4zawZGI.jpg" alt="头像"/>
 		AzusaCat
 	</a>
+	<a class='Blog' href="https://alan-sp.github.io/">
+		<img src="/img/avatar/alansp.jpg" alt="头像"/>
+		AlanSP
+	</a>
 </div>
 <!--
 # 网站推荐
