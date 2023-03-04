@@ -3,7 +3,7 @@ title: SDL2 学习笔记 0：介绍及Windows开发环境配置
 comment: true
 cc: true
 pinned: false
-hidden: false
+hidden: true
 date: 2023-01-01 16:57:49
 updated: 2023-01-13 16:57:49
 summary: 采用Visual Studio
