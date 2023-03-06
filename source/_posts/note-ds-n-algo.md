@@ -14,6 +14,7 @@ tags:
 ## 数据结构部分
 ### [0. 抽象数据类型(ADT)](/2023/02/note-ds-n-algo-0/)
 ### [WIP：链表(Linked List)](/2023/02/note-ds-n-algo-1/)
+### [2. 栈(Stack)](/2023/03/note-ds-n-algo-2/)
 ## 算法部分
 ~~暂无~~
 
