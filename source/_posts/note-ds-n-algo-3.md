@@ -48,3 +48,4 @@ Typically, we do like this when calculating asymptotic running time:
 
 e.g.&nbsp;&nbsp;$T(n) = An^2 + Bn + C = O(n^2)$
 
+Question: Master Theorem

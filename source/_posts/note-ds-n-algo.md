@@ -16,6 +16,8 @@ tags:
 ### [WIP：链表(Linked List)](/2023/02/note-ds-n-algo-1/)
 ### [2. 栈(Stack)](/2023/03/note-ds-n-algo-2/)
 ### [3. 算法复杂度(Program Complexities)](/2023/03/note-ds-n-algo-3/)
+### [4. 队列(Queue)和有限队列(Priority Queue)](/2023/03/note-ds-n-algo-4/)
+### [5. 哈希(Hash)](/2023/03/note-ds-n-algo-5/)
 ## 算法部分
 ~~暂无~~
 
