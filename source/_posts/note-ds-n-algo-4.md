@@ -9,11 +9,11 @@ updated: 2023-03-20 09:50:18
 summary:
 tags:
 ---
-## Defination
+# Defination
 * Queue is a list with the restriction that insertions are performed at one end and deletions are performed at the other end of the list
 * Also known as: First-in-first-out (**FIFO**) list
 
-## ADT
+# ADT
 Value:\
 A sequence of items that belong to some data type `ITEM_TYPE`.
 
@@ -29,19 +29,19 @@ Postcondition: The front item in q is removed from the sequence and returned
 Precondition: q is not full\
 Postcondition: e is added to the sequence as the rear one
 
-## Implementation
-### Array
+# Implementation
+## Array
 Use circulated array to minify allocating times, thus improving efficiency.
 **Caution:** When using array circulated-ly, make sure `rear` pointer doesn't catch with `front`! In that case, `isEmpty()` will return `true`!
-#### Copying When `rear` $\lt$ `front` (2 Ways)
+### Copying When `rear` $\lt$ `front` (2 Ways)
 1. Move `front` to `size - 1` first, then copy `0` to `rear`
 2. Copy `0` to `rear` as before, then copy `front` to `size - 1` to the end of the new array
-### Linked List
+## Linked List
 
-## Application
+# Application
 * BFS (Breadth-first Search)
 * Round Robin Schedule
 
-## Priority Queue
+# Priority Queue
 * The elements in a stack or a FIFO queue are ordered based on thesequence in which they have been inserted.
 * In a priority queue, the sequence in which elements are removed isbased on the priority of the elements.

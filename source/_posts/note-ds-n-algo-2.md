@@ -9,9 +9,9 @@ updated: 2023-03-06 09:49:02
 summary:
 tags:
 ---
-## Defination
+# Defination
 Usually a **LIFO(last-in-first-out)** list.
-## ADT
+# ADT
 Value:\
 	A sequence of items that belong to some data type `ITEM_TYPE`.
 
@@ -30,22 +30,22 @@ Postcondition: The value of the top item in s is returned
 Precondition: s is not full\
 Postcondition: e is added to the sequence as the top one
 
-## Implementation
-### Dynamic Array
-#### Memory Allocation
+# Implementation
+## Dynamic Array
+### Memory Allocation
 * Double `capacity` when $size = capacity$
 * Half `capacity` when $size \le capacity / 4$
 > Why $capacity / 4$ rather than $capacity / 2$?\
 > Avoid repeated allocation of memory while operating insert/delete when$size = capacity$
-#### Copying
+### Copying
 * Point to old memory
 * Allocate new space to `data`
 * Copy old value to `data`
 * Delete old array
-### Linked List
+## Linked List
 * Stack nodes link to the node beneath it
 * The bottom of the stack always links to `nullptr`
-## Application
+# Application
 * Maze
 * Balancing symbols (e.g. bracket checker)
 * Evaluation of postfix expression

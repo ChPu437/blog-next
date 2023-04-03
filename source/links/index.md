@@ -6,7 +6,7 @@ type: links
 
 <div id='blogContainer' class='SubContainer'>
 	<a class='Blog' href="https://blog.bluequantum.top/">
-		<img src="https://blog.bluequantum.top/static/images/icon.png" alt="头像"/>
+		<img src="https://blog.bluequantum.top/favicon.ico" alt="头像"/>
 		BlueQuantum
 	</a>
 	<a class='Blog' href="https://www.wankupi.top/">

@@ -9,25 +9,25 @@ updated: 2023-03-20 09:50:21
 summary:
 tags:
 ---
-### A good hash function:
+## A good hash function:
 Fast computation, minimal collision.
-## Collision Resolution
-### Open Addressing
+# Collision Resolution
+## Open Addressing
 *General rule:* If collide, try other slots in a certain order.
-#### Linear Probing
+### Linear Probing
 * If collide, try `slot_id + 1`,...
-#### Quadratic Probing
+### Quadratic Probing
 * Try `slot_id + 1^2`,...
-#### Double Hashing
+### Double Hashing
 * Try `slot_id + hash_2(x)`,...
-### Separate Chaining
+## Separate Chaining
 * Use linked list to link collided item.
 
-## Rehashing
+# Rehashing
 * When half full, rehash all the elements into a double-sized table
 * $O(n)$
 
-## Application
+# Application
 * Dictionary\
 To establish a link from character to number.\
 e.g. $A \rightarrow 055$\
