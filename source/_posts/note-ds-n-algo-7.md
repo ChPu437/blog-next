@@ -20,14 +20,13 @@ A non-empty binary tree is a min-heap if:
 1. `top()`
 2. `pop()`
 3. `push()`
-## Implementation
+# Implementation
 * `pop()`\
 	To maintain the heap as a complete binary tree, we do as follow:
 	1. Delete the top node.
 	2. Put the last node (the node with the biggest index) to the root.
-	3. Percolate the node down with the **smallest** of its new children.
+	3. Percolate the node down with the smallest of its new children.
 		* Stop when both children are larger than it.
 * `push()`\
 	Put the new node as the child of an arbitrary node(e.g. a leaf node), then percolate it.
-# Complexity
 
