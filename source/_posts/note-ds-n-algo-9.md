@@ -28,7 +28,7 @@ Node being accessed is:
 	1. When accessing the left son, rotate right.
 	2. When accessing the right son, rotate left.
 3. Have parent and grand-parent\
-	When accessing LR/RL grandchild, rotate **top-down twice** like AVL LR/RL (Zig-Zag)\
+	When accessing LR/RL grandchild, rotate **down-top twice** like AVL LR/RL (Zig-Zag)\
 	When accessing LL/RR grandchild, rotate **top-down twice** like AVL LL/RR (Zig-**Zig**)\
 	E.g. for node $g\rightarrow p\rightarrow n$\
 	When accessing node $n$, first rotate $g$ and $p$, then rotate $p$ and $n$.
