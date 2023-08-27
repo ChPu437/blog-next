@@ -1,7 +1,6 @@
 background: # avif for default, webp and jpeg for fallback
-  avif: "/img/background/bg3.avif"
-  webp: "/img/background/bg3.webp"
-  jpeg: "/img/background/bg3.jpg"
+  # webp: "/img/background/bg3.webp"
+  jpeg: "/img/background/bg6.jpg"
 email: ChPu437@163.com
 home:
   slogan: # 留空则使用 subtitle
