@@ -3,4 +3,4 @@ cd themes/solstice
 git add . & git commit -m "Update theme" & git push
 cd -
 git submodule set-url themes/solstice https://github.com/ChPu437/hexo-theme-solstice
-
+git add theme/solstice & git commit -m "Update theme" & git push
