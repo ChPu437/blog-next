@@ -1,5 +1,7 @@
 background: # avif for default, webp and jpeg for fallback
-  # webp: "/img/background/bg3.webp"
+  # 只使用jpg时全部需改为jpg, webp和avif类推
+  avif: "/img/background/bg3.jpg"
+  webp: "/img/background/bg3.jpg"
   jpeg: "/img/background/bg.jpg"
 email: ChPu437@163.com
 home:
