@@ -3,6 +3,7 @@ Thumbs.db
 db.json
 *.log
 node_modules/
+node_modules.bak/
 public/
 .deploy*/
 .env

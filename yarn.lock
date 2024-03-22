@@ -1171,6 +1171,14 @@ cwebp-bin@^6.0.0:
     bin-build "^3.0.0"
     bin-wrapper "^4.0.1"
 
+cwebp-bin@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/cwebp-bin/-/cwebp-bin-8.0.0.tgz#00fac9a3778fd6d27df4d52fedbe2d895de14223"
+  integrity sha512-j2s6jA84aG20lB0i/FBwqZGc8nHx4VASUK8OTDxy3xoUHoX/+pP6T15/TnWwhMcD0pZ05y5GgRPkurufOC8tnQ==
+  dependencies:
+    bin-build "^3.0.0"
+    bin-wrapper "^4.0.1"
+
 debug@2.6.9, debug@^2.0.0, debug@^2.2.0:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"

@@ -139,7 +139,7 @@ CPU utilization
 Throughput
 Turnaround time
 Waiting time -> waiting in **ready** queue
-* Response time -> to user waiting for interaction
+Response time
 
 ## Simple Scheduling Algorithms
 1. FCFS (First Come, First Served), or FIFO
@@ -148,22 +148,4 @@ Waiting time -> waiting in **ready** queue
     * A special case of general **priority-scheduling** algorithm.
     * Minimium number indicates the highest priority in common.
     * Starvation
-        * Solution: Aging -> increase priority as time porgresses.
-3. HRRN (Highest Response Ratio Next)
-    $response_ratio =  1 + \frac{waiting_time}{estimated_run_time}$
-4. Preemptive SJF (or Shortest Time-to-Completion First, STCF, SRTF)
-    * Bad in response time.
-5. RR (Round-Robin)
-    * Runs a job for a time slice (sometimes called a scheduling quantum) and then switches to the next job in the running queue.
-    * Good in response time, but poor in performance.
-    * Costly in context switch.
-
-* Incorporating I/O
-
-Real-world situation:
-1. Not gaining perfect knowledge about the process.
-    * Make prediction about the length of incoming CPU burst.
-2. Tradeoff between performance and fairness.
-    * Hybird scheduling algorithm, divide jobs into different queue (e.g., foreground and background)
-    * Different queue may have different goal, e.g., foreground jobs needs more fairness so can use algorithm like RR.
-    * Then we need another scheme to scheduling between the queues.
+3. 
