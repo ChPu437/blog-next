@@ -1,5 +1,5 @@
 ---
-title: note-ai-0
+title: AI导论 课程笔记
 comment: false
 cc: true
 pinned: false
@@ -8,7 +8,14 @@ date: 2024-02-20 09:48:07
 updated: 2024-02-20 09:48:07
 summary:
 tags:
+    - 笔记
+    - 计算机科学
+    - 人工智能
+    - 大学课程
 ---
+
+> 由于中间有很长一段时间在课上做ICS-PA去了，笔记中间断线了许多
+> ~~虽然这课确实比较水没讲啥就是~~
 
 ## Agent
 
@@ -83,5 +90,15 @@ Evaluating search algo:
 
 ---
 
+# Aritificial Intelligence Beyond Classical Search
 
+## Local Search
 
+### Hill-Climbing Algorithm
+### Simulated Annealing
+### Local Beam Search
+### Genetic Algorithms
+
+---
+
+# Constraint Satisfaction Problem

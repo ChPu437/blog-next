@@ -1,5 +1,5 @@
 ---
-title: Notes on Operating System
+title: 操作系统 课堂笔记
 comment: false
 cc: true
 pinned: false
@@ -8,7 +8,13 @@ date: 2024-02-19 13:54:56
 updated: 2024-02-26 3:54:56
 summary:
 tags:
+    - 笔记
+    - 计算机科学
+    - 操作系统
+    - 大学课程
 ---
+
+> 中间有一段时间在搞ICSPA，笔记会有些空缺
 
 Operating systems are **interupt driven**
 
@@ -167,3 +173,38 @@ Real-world situation:
     * Hybird scheduling algorithm, divide jobs into different queue (e.g., foreground and background)
     * Different queue may have different goal, e.g., foreground jobs needs more fairness so can use algorithm like RR.
     * Then we need another scheme to scheduling between the queues.
+
+* Multilevel Feedback Queue (MLFQ)
+    * Optimize turnaround time
+    * Minimize response time
+    Start from MLQ:
+        * Rules:
+        1. P(A) > P(B), A runs.
+        2. P(A) == P(B), runs in round-robin.
+    For MLFQ: priority can be changed over time.
+    For new coming job in MLFQ: highest priority, since it can never be runnned if its priority is lower than current job.
+
+## More Scheduling Algorithm
+1. Lottery Scheduling
+    Proportional-share: try guarantee each job can obtain a certain proportion of CPU time.
+    * This will cause waste when one job does nothing in its execution time.
+    So we hold a lottery to determine which process should run next:
+    *(Refer to page 5, slide Chapter_5_contd)*
+    * No global state
+2. Stride Scheduling
+    Run the job with lowest progress first, the time period is its stride value.
+    * Drawback: if one process starts after some jobs have run for a period of time, it will stuck the scheduler for a long time.
+3. Thread Scheduling
+    *(Refer to page 11, slide Chapter_5_contd)*
+4. Multiple-Processor Scheduling
+    *(Refer to page 13, slide Chapter_5_contd)*
+5. Real-Time CPU Schdeduling
+    *(Refer to page 18, slide Chapter_5_contd)*
+
+---
+
+# Process Synchronization
+
+# Mutex
+
+# Condition Variables
