@@ -219,9 +219,46 @@ internal fragmentation vs. external fragmentation
 
 internal: 分配给当前进程但是没有用完，其他进程也无法使用（在heap和stack之间）
 
-external:
+external: 分配时有空闲空间，但是无法使用
 
 ## Segmentation (分段)
 
+## Translation Lookaside Buffer (TLB)
 
+### issue with context switch
+To support context switch:
+method#1: flush the TLB every context switch (can be poor in performance and wasting in space)
+method#2: use an address space identifier(ASID) to indicate which process every entry belongs to in the entries of TLB.
 
+### Shared Pages
+
+in some cases a single physical page can be shared between processes to refer to different virtual address
+
+### TLB Replacement Policy
+
+TBD in futrue course
+
+### Effective Access Time (EAT)
+
+Slide08, Page45 (not covered in exam)
+
+### Page Size Issue
+
+we need small/large page to tackle with:
+* fragmentation (small page)
+* table size/page faults (large page)
+* I/O overhead (large page)
+* locality/resolution (small page)
+* TLB reach/TLB size(large page)
+
+## Hybird Paging (segmentation and paging)
+
+## Muilt-level Paging
+
+Advantages:
+1. Lower space consumption
+2. Easier to manage memory when carefully constructed
+
+Disadvantages:
+1. Time-space trade off
+2. Complexity
