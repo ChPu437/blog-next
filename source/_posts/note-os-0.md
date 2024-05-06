@@ -208,3 +208,20 @@ Real-world situation:
 # Mutex
 
 # Condition Variables
+
+---
+
+# Main Memory
+
+## Fragmentation
+
+internal fragmentation vs. external fragmentation
+
+internal: 分配给当前进程但是没有用完，其他进程也无法使用（在heap和stack之间）
+
+external:
+
+## Segmentation (分段)
+
+
+

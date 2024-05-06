@@ -5,7 +5,7 @@ cc: true
 pinned: false
 hidden: false
 date: 2023-09-24 13:15:51
-updated: 2023-09-24 13:15:51
+updated: 2024-04-25 13:15:51
 summary:
 tags:
     - 笔记
@@ -58,3 +58,7 @@ tags:
 `jmp`指令的下一条静态指令是`add`指令, 而下一条动态指令则是`xor`指令.
 
 `SEXT`：对立即数进行符号扩展，故一般只在最高位出现的部分使用
+
+---
+
+在riscv32中, 如果mstatus中的MIE位为0, 则CPU处于关中断状态

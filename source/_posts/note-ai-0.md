@@ -102,3 +102,18 @@ Evaluating search algo:
 ---
 
 # Constraint Satisfaction Problem
+
+---
+
+# Logical Agent
+
+---
+
+# Probability
+
+---
+
+茅庐川菜
+湖区旁边市井川菜
+陈麻婆豆腐
+四牌楼外有鸡蛋灌饼 蓁巷里
