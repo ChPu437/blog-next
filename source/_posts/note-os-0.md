@@ -262,3 +262,77 @@ Advantages:
 Disadvantages:
 1. Time-space trade off
 2. Complexity
+
+## Hashed Page Tables
+
+## Clustered Page Tables
+
+## Inverted Page Tables
+
+* not a per-process DS
+
+## Demand Paging
+
+## Copy On Write
+
+## Memory-Mapping
+
+* mapping disk files to memory to reduce IO overhead
+
+## Allocating Kernel Memory
+
+### Buddy Allocator
+
+*Slide09, Page68*
+
+### Slab Allocator
+
+*Slide09, Page70*
+
+# Mass-Storage Structure
+
+## Disk Scheduling
+
+### Algorithmns
+
+1. FCFS
+2. SSTF
+3. SCAN 
+4. C-SCAN
+5. LOOK 
+6. C-LOOK
+7. SPTF
+
+## Redundant Arrays of Independent Disks (RAIDs)
+
+### RAID0
+
+Stripe blocks across Disks
+* Actually NOT a RAID at all
+
+### RAID1
+
+Makes more than one copy for each block; each copy should on seperate disks to tolerate disk failure
+
+Common arrangement: RAID-10 (RAID1 first and then RAID0 on every copy)
+
+### RAID4
+
+For each stripe of data, add a single parity block that stores the redundant information for that stripe of blocks
+
+### RAID5
+
+Based on RAID4, rotate the parity blocks across drives
+
+# File System Interfaces
+
+# Log-Structured File System
+
+# Flash-based SSDs
+
+SSDs supports:
+1. read(page)
+2. erase(**block**)
+3. program(page)
+
+

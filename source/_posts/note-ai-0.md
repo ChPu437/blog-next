@@ -117,3 +117,60 @@ Evaluating search algo:
 湖区旁边市井川菜
 陈麻婆豆腐
 四牌楼外有鸡蛋灌饼 蓁巷里
+
+---
+
+# Desicion Tree
+
+信息熵
+
+# Regression and Classification
+
+## Linear Regression (线性回归)
+
+parameter: 函数中要学习测定的变量
+
+线性回归: 针对parameter而言
+
+部分情况可以通过换元将问题转换到线性回归
+
+loss function: 表示损失(精度)
+
+e.g. square error function $\frac{1}{2m}\sum{m}{i=1}(h(x^{(i)}) - y^{(i)})^2$
+
+通常的目标是最小化损失
+
+### Gradient Descent Algorithm (梯度下降法) 
+
+一个学习算法至少有两部分组成:
+1. 损失函数
+2. 优化算法
+
+## Regularization (正则化)
+
+## Logistic Regression (逻辑回归)
+
+---
+
+# Aritificial Nerual Networks
+
+Input: $x_n$
+
+Parameters: $\omega_n$
+
+Output: $a$ 
+
+Activation function: $a = \sigma (\omega^T x + b)$
+
+## Procedure
+
+1. Feed forward
+2. Back propagation
+
+## Convolution Nerual Network (CNN)
+
+kernel: 卷积核，是一个滤波器，在原有的图片上滑动并做卷积得到新的特征点阵
+
+# Transformer
+
+
