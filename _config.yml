@@ -4,7 +4,7 @@
 
 # Site
 title: ChPu437
-subtitle: 🐉龙年大吉🐉
+subtitle: 蛊惑他人，麻醉内心
 description: ChPu437 的博客
 keywords:
   - Blog
@@ -12,6 +12,7 @@ keywords:
 author: ChPu437
 language:
   - zh-cn
+# noinspection YAMLSchemaValidation
 timezone: Asia/Shanghai
 
 # URL
