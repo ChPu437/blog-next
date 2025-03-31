@@ -11,7 +11,7 @@ tags:
 ---
 
 1. 使用bitbake时，出现访问权限问题
-    * `sudo apparmor_parser -R /etc/apparmor.d/unprivileged`
+    * `sudo apparmor_parser -R /etc/apparmor.d/unprivileged_userns`
 2. 编译libxcrypto时失败
     * https://lists.openembedded.org/g/openembedded-core/topic/kirkstone_patch_libxcrypt/100370051
 3. 编译vulkan-loader时出现错误
