@@ -10,6 +10,8 @@ summary:
 tags:
 ---
 
+# Linux version 6.1.38-lf-6.1.y+gb872b1170fc8
+
 1. 使用bitbake时，出现访问权限问题
     * `sudo apparmor_parser -R /etc/apparmor.d/unprivileged_userns`
 2. 编译libxcrypto时失败
@@ -18,3 +20,5 @@ tags:
     * 远程仓库头偏移，将master设置为main
 4. 编译opengl时出现错误
     * 虚拟机内存不足，增加虚拟机内存至16g
+
+# LF6.12.3_1.0.0 
