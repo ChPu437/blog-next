@@ -27,6 +27,38 @@ tags:
 
 ### 安装前置依赖
 
+下载Ruby和MSYS2的安装包后，先将这两个包全部安装。之后，在安装Ruby时，应该会弹出一个类似下面的窗口：
+
+![RubyInstaller](https://blog.walterlv.com/static/posts/2018-03-04-12-14-41.png)
+
+如果没有弹出，我们随后自行打开一个powershell窗口（如果是全局安装Ruby，请以管理员权限打开powershell），输入`ridk install`，亦可进入该界面。
+
+在这个界面中，选择`3`，回车。
+
+如果前面没有安装MSYS2，这里可能会因为网络问题导致下载非常之慢……
+
+安装成功之后，请继续阅读下一节。
+
 ### 安装Jekyll
 
+再打开一个新的powershell窗口（同样，如果是全局安装Ruby，请以管理员权限打开powershell），输入以下命令：
+
+`gem install jekyll bundler`
+
+安装成功之后，请继续阅读下一节。
+
 ## 测试使用
+
+再打开一个新的powershell窗口（**不需要**管理员权限），切换到Jekyll站点根目录。如果是第一次使用，需要先下载项目依赖。输入：
+
+`bundle install`
+
+安装依赖之后，输入以下命令启动Jekyll站点：
+
+`bundle exec jekyll serve`
+
+如果没有产生错误，安装就完成了🎉
+
+## Ruby跨版本升级问题
+
+这里请参考[walterlv的原文](https://blog.walterlv.com/post/setup-jekyll-in-windows.html#ruby-%E8%B7%A8%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7%E7%9A%84%E5%9D%91)。
