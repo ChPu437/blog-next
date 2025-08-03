@@ -25,6 +25,10 @@ type: links
 		<img src="/img/avatar/alansp.jpg" alt="头像"/>
 		AlanSP
 	</a>
+	<a class='Blog' href="https://glowled.top/">
+		<img src="https://glowled.top/avatar/avatar_yamada.jpg" alt="头像"/>
+		GlowLED
+	</a>
 </div>
 <!--
 # 网站推荐
